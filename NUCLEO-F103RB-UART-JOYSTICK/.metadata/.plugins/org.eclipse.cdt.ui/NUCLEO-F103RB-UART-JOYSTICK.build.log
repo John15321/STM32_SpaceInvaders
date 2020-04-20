@@ -1,10 +1,10 @@
-00:51:01 **** Incremental Build of configuration Debug for project NUCLEO-F103RB-UART-JOYSTICK ****
+02:28:51 **** Incremental Build of configuration Debug for project NUCLEO-F103RB-UART-JOYSTICK ****
 make -j4 all 
 arm-none-eabi-size   NUCLEO-F103RB-UART-JOYSTICK.elf 
    text	   data	    bss	    dec	    hex	filename
-   6304	     20	   1636	   7960	   1f18	NUCLEO-F103RB-UART-JOYSTICK.elf
+  11620	    120	   1696	  13436	   347c	NUCLEO-F103RB-UART-JOYSTICK.elf
 Finished building: default.size.stdout
  
 
-00:51:02 Build Finished. 0 errors, 0 warnings. (took 672ms)
+02:28:52 Build Finished. 0 errors, 0 warnings. (took 736ms)
 

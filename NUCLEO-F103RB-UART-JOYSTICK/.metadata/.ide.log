@@ -498,3 +498,686 @@
 2020-04-19 23:55:41,987 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 4212mS.
 2020-04-19 23:55:41,988 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
 2020-04-19 23:55:41,989 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-04-19 23:59:58,819 [INFO] Activator:176 - 
+
+
+2020-04-19 23:59:58,821 [INFO] Activator:177 - !SESSION log4j initialized
+2020-04-20 00:29:29,535 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303
+2020-04-20 00:29:29,547 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\/mcu/
+2020-04-20 00:29:29,550 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\/plugins/boardmanager/
+2020-04-20 00:29:29,550 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\/plugins/mcufinder/images/
+2020-04-20 00:29:29,551 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\/plugins/mcufinder/images/
+2020-04-20 00:29:29,556 [INFO] DbMcusAds:85 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:29,557 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:29,558 [INFO] DbMcusJson:61 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:29,559 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:29,560 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:29,632 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-04-20 00:29:29,776 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-04-20 00:29:29,890 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_242
+2020-04-20 00:29:29,891 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\/mcu/
+2020-04-20 00:29:29,891 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\/plugins/boardmanager/
+2020-04-20 00:29:29,891 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\/plugins/mcufinder/images/
+2020-04-20 00:29:29,892 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\/plugins/mcufinder/images/
+2020-04-20 00:29:29,893 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:29,893 [INFO] DbMcusAds:85 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:29,893 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:29,893 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:29,893 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:29,894 [INFO] DbMcusJson:61 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:29,894 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:29,894 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:29,894 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:29,895 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:29,895 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:29,895 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:29,895 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-04-20 00:29:29,955 [INFO] MainPanel:181 - HeapMemory: 336592896
+2020-04-20 00:29:30,006 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\/mcu/
+2020-04-20 00:29:30,006 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\/plugins/boardmanager/
+2020-04-20 00:29:30,006 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\/plugins/mcufinder/images/
+2020-04-20 00:29:30,007 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\/plugins/mcufinder/images/
+2020-04-20 00:29:30,007 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:30,007 [INFO] DbMcusAds:85 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:30,008 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:30,008 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:30,008 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:30,008 [INFO] DbMcusJson:61 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:30,008 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:30,009 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:30,009 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:30,009 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/
+2020-04-20 00:29:30,009 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:30,009 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\johnb\.stmcufinder\plugins\mcufinder/ => C:\Users\johnb\.stmcufinder\plugins\mcufinder
+2020-04-20 00:29:30,010 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\johnb\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-04-20 00:29:30,025 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303
+2020-04-20 00:29:30,026 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2020-04-20 00:29:30,028 [INFO] PluginManage:292 - Check plugin analytics
+2020-04-20 00:29:30,032 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-04-20 00:29:30,033 [INFO] PluginManage:292 - Check plugin clock
+2020-04-20 00:29:30,042 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-04-20 00:29:30,042 [INFO] PluginManage:292 - Check plugin ddr
+2020-04-20 00:29:30,045 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-04-20 00:29:30,045 [INFO] PluginManage:292 - Check plugin filemanager
+2020-04-20 00:29:30,169 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-04-20 00:29:30,170 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-04-20 00:29:30,181 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-04-20 00:29:30,181 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-04-20 00:29:30,191 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-04-20 00:29:30,191 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-04-20 00:29:30,217 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-04-20 00:29:30,218 [INFO] PluginManage:292 - Check plugin power
+2020-04-20 00:29:30,227 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-04-20 00:29:30,227 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-04-20 00:29:30,243 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-04-20 00:29:30,243 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-04-20 00:29:30,287 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/johnb/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 19 ms. number of Sw pack : 16
+2020-04-20 00:29:30,306 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-04-20 00:29:30,306 [INFO] PluginManage:292 - Check plugin tools
+2020-04-20 00:29:30,308 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-04-20 00:29:30,309 [INFO] PluginManage:292 - Check plugin tutovideos
+2020-04-20 00:29:30,309 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2020-04-20 00:29:30,309 [INFO] PluginManage:292 - Check plugin updater
+2020-04-20 00:29:30,320 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-04-20 00:29:30,320 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2020-04-20 00:29:30,472 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-04-20 00:29:30,554 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,555 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-04-20 00:29:30,557 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,557 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-04-20 00:29:30,559 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,560 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-04-20 00:29:30,561 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,561 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-04-20 00:29:30,563 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,563 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-04-20 00:29:30,565 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,566 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-04-20 00:29:30,570 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,571 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-04-20 00:29:30,572 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,573 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-04-20 00:29:30,576 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,576 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-04-20 00:29:30,581 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,582 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-04-20 00:29:30,583 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,583 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-04-20 00:29:30,585 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,586 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-04-20 00:29:30,590 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,591 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-04-20 00:29:30,594 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,595 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-04-20 00:29:30,597 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,597 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-04-20 00:29:30,599 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,599 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-04-20 00:29:30,602 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,602 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-04-20 00:29:30,604 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,605 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-04-20 00:29:30,607 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,608 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-04-20 00:29:30,609 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,609 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-04-20 00:29:30,612 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,613 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-04-20 00:29:30,615 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,616 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-04-20 00:29:30,618 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,618 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-04-20 00:29:30,621 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,621 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-04-20 00:29:30,626 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,629 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-04-20 00:29:30,630 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,630 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-04-20 00:29:30,633 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,633 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-04-20 00:29:30,636 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,636 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-04-20 00:29:30,638 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,638 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-04-20 00:29:30,641 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,642 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-04-20 00:29:30,643 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,643 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-04-20 00:29:30,646 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,646 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-04-20 00:29:30,648 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,648 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-04-20 00:29:30,650 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,650 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-04-20 00:29:30,651 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,651 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-04-20 00:29:30,653 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,654 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-04-20 00:29:30,656 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:30,656 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-04-20 00:29:31,020 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-04-20 00:29:31,021 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2020-04-20 00:29:31,247 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-04-20 00:29:31,437 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-04-20 00:29:31,441 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-04-20 00:29:31,442 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-04-20 00:29:31,446 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-04-20 00:29:31,446 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2020-04-20 00:29:31,450 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin\STM32_Programmer_CLI.exe -l
+2020-04-20 00:29:31,551 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2020-04-20 00:29:31,555 [INFO] Updater:886 - Updater Version found : 5.6.1
+2020-04-20 00:29:31,570 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303
+2020-04-20 00:29:31,874 [INFO] MainUpdater:2230 - connection check result : 10
+2020-04-20 00:29:31,876 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2020-04-20 00:29:31,877 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-04-20 00:29:31,925 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2020-04-20 00:29:32,089 [INFO] MainUpdater:2230 - connection check result : 10
+2020-04-20 00:29:32,205 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-04-20 00:29:32,205 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-04-20 00:29:32,209 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-04-20 00:29:32,210 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 162064912 Bytes (336592896)
+2020-04-20 00:29:32,215 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-04-20 00:29:32,215 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-04-20 00:29:32,215 [INFO] OpenFileManager:274 - Change cursor
+2020-04-20 00:29:33,354 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (ADCFreqValue) has invalid value (32000000)
+2020-04-20 00:29:33,354 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2020-04-20 00:29:33,355 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (MCOFreq_Value) has invalid value (64000000)
+2020-04-20 00:29:33,355 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (64000000)
+2020-04-20 00:29:33,388 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/johnb/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-04-20 00:29:33,438 [INFO] IntegrityCheckThread:98 - End integrity checks thread
+2020-04-20 00:29:33,520 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 165733376 Bytes (336592896)
+2020-04-20 00:29:33,521 [INFO] DbMcusXml:110 - Load MCU database from C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\/mcu/families.xml
+2020-04-20 00:29:34,050 [INFO] DbMcusJson:90 - JSON generation date=Wed Apr 15 07:54:18 CEST 2020 (1586930058)
+2020-04-20 00:29:34,594 [INFO] DbMcus:171 - Found 1670 MCUs (1625 are supported by CubeMX, 1625 are visible in CubeMX)
+2020-04-20 00:29:34,595 [INFO] ApiDb:158 - Load user favorites file C:\Users\johnb/.stm32cubemx/favorites.mcus.txt: 0 item(s)
+2020-04-20 00:29:34,595 [INFO] ApiDb:163 - User favorites MCUs=[]
+2020-04-20 00:29:34,595 [INFO] DbMcus:183 - Set 0 / 0 favorites MCUs
+2020-04-20 00:29:34,606 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/johnb/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 4 ms. number of Sw pack : 16
+2020-04-20 00:29:34,620 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1581973463006]
+2020-04-20 00:29:34,621 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1581973462333
+2020-04-20 00:29:34,621 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1581973465582, 1581973463089]
+2020-04-20 00:29:34,710 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-04-20 00:29:34,710 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-04-20 00:29:34,710 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-04-20 00:29:34,710 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.0.0
+2020-04-20 00:29:34,710 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-04-20 00:29:34,711 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.0.0
+2020-04-20 00:29:34,711 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.1
+2020-04-20 00:29:34,711 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-04-20 00:29:34,711 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.0.0
+2020-04-20 00:29:34,711 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 4.4.0
+2020-04-20 00:29:34,711 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.0.0
+2020-04-20 00:29:34,711 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-04-20 00:29:34,711 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-04-20 00:29:34,711 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-04-20 00:29:34,892 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-04-20 00:29:34,894 [INFO] PinOutPanel:1420 - setPackage(STM32F103RBTx,LQFP64)
+2020-04-20 00:29:35,232 [INFO] UtilMem:74 - Before build in PCC Used Memory: 216888672 Bytes (397410304)
+2020-04-20 00:29:35,602 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/johnb/.stm32cubemx/plugins/power
+2020-04-20 00:29:35,637 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/johnb/.stm32cubemx/plugins/power
+2020-04-20 00:29:35,674 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/johnb/.stm32cubemx/plugins/power
+2020-04-20 00:29:35,677 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/johnb/.stm32cubemx/plugins/power
+2020-04-20 00:29:35,839 [INFO] UtilMem:74 - After build in PCC Used Memory: 254111080 Bytes (397410304)
+2020-04-20 00:29:35,855 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,855 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,855 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,855 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,856 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,856 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,856 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,856 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,856 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,856 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,856 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,857 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,857 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,857 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,857 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,857 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,857 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,858 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,858 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,858 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,858 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,858 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,859 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,859 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,859 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,859 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,860 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-04-20 00:29:35,885 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2020-04-20 00:29:35,960 [INFO] OpenFileManager:294 - Restore cursor
+2020-04-20 00:30:48,665 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-04-20 00:30:48,665 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-04-20 00:30:48,678 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-04-20 00:30:48,678 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-04-20 00:30:48,679 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-04-20 00:30:48,679 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-04-20 00:30:48,793 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-04-20 00:30:48,793 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-04-20 00:30:48,796 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-04-20 00:30:48,796 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-04-20 00:30:48,805 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-04-20 00:30:48,805 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-04-20 00:31:08,101 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 284045760 Bytes (397410304)
+2020-04-20 00:31:09,189 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 291908040 Bytes (397410304)
+2020-04-20 00:31:09,385 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 303968704 Bytes (397410304)
+2020-04-20 00:31:09,797 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-04-20 00:31:09,798 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2020-04-20 00:31:09,798 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-04-20 00:31:09,798 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-04-20 00:31:09,798 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-04-20 00:31:09,798 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: I2C
+2020-04-20 00:31:09,799 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\
+2020-04-20 00:31:09,805 [WARN] IP:1936 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-04-20 00:31:09,805 [WARN] IP:1936 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-04-20 00:31:10,106 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\license.tmp_save
+2020-04-20 00:31:10,560 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\license.tmp
+2020-04-20 00:31:10,789 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\gpio.tmp_save
+2020-04-20 00:31:10,921 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\gpio.tmp
+2020-04-20 00:31:10,937 [ERROR] IPConfigManager:1272 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-04-20 00:31:10,937 [ERROR] IPConfigManager:1272 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-04-20 00:31:11,003 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-04-20 00:31:11,003 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-04-20 00:31:11,004 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 00:31:11,005 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-04-20 00:31:11,005 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2020-04-20 00:31:11,006 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 00:31:11,008 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-04-20 00:31:11,008 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 00:31:11,051 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_it.c_save
+2020-04-20 00:31:11,306 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_it.c
+2020-04-20 00:31:11,325 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_it.h_save
+2020-04-20 00:31:11,394 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_it.h
+2020-04-20 00:31:11,428 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_hal_msp.c_save
+2020-04-20 00:31:11,557 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_hal_msp.c
+2020-04-20 00:31:11,582 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\system.tmp_save
+2020-04-20 00:31:11,649 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\system.tmp
+2020-04-20 00:31:11,683 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-04-20 00:31:11,771 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_hal_conf.h
+2020-04-20 00:31:11,782 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-04-20 00:31:11,783 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-04-20 00:31:11,812 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\main.h_save
+2020-04-20 00:31:11,889 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\main.h
+2020-04-20 00:31:11,920 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\main.c_save
+2020-04-20 00:31:12,028 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\main.c
+2020-04-20 00:31:12,803 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 97mS.
+2020-04-20 00:31:12,806 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-04-20 00:31:13,102 [INFO] ConfigFileManager:1066 - The Die is : DIE410
+2020-04-20 00:31:15,316 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2510mS.
+2020-04-20 00:31:15,317 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-04-20 00:31:15,319 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-04-20 00:50:06,451 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 717305536 Bytes (900726784)
+2020-04-20 00:50:07,632 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 728839872 Bytes (900726784)
+2020-04-20 00:50:07,784 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 741422784 Bytes (900726784)
+2020-04-20 00:50:07,969 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-04-20 00:50:07,971 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2020-04-20 00:50:07,971 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-04-20 00:50:07,971 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-04-20 00:50:07,971 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-04-20 00:50:07,972 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\
+2020-04-20 00:50:08,140 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\license.tmp_save
+2020-04-20 00:50:08,198 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\license.tmp
+2020-04-20 00:50:08,238 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\gpio.tmp_save
+2020-04-20 00:50:08,308 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\gpio.tmp
+2020-04-20 00:50:08,334 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-04-20 00:50:08,335 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2020-04-20 00:50:08,336 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 00:50:08,338 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-04-20 00:50:08,339 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 00:50:08,378 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_it.c_save
+2020-04-20 00:50:08,458 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_it.c
+2020-04-20 00:50:08,481 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_it.h_save
+2020-04-20 00:50:08,538 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_it.h
+2020-04-20 00:50:08,574 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_hal_msp.c_save
+2020-04-20 00:50:08,677 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_hal_msp.c
+2020-04-20 00:50:08,698 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\system.tmp_save
+2020-04-20 00:50:08,752 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\system.tmp
+2020-04-20 00:50:08,786 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-04-20 00:50:08,875 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_hal_conf.h
+2020-04-20 00:50:08,884 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-04-20 00:50:08,885 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-04-20 00:50:08,918 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\main.h_save
+2020-04-20 00:50:08,978 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\main.h
+2020-04-20 00:50:09,013 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\main.c_save
+2020-04-20 00:50:09,129 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\main.c
+2020-04-20 00:50:09,535 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 79mS.
+2020-04-20 00:50:09,537 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-04-20 00:50:09,728 [INFO] ConfigFileManager:1066 - The Die is : DIE410
+2020-04-20 00:50:11,325 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1788mS.
+2020-04-20 00:50:11,325 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-04-20 00:50:11,326 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-04-20 02:14:43,189 [INFO] ParamManager:955 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2020-04-20 02:14:43,205 [INFO] ParamManager:955 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2020-04-20 02:14:55,144 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:08,054 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:08,054 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:08,054 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:08,055 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:08,055 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:08,055 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:08,055 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:08,056 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:08,056 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:08,056 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:08,066 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:17,153 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 526891768 Bytes (986710016)
+2020-04-20 02:15:34,531 [INFO] ParamManager:955 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2020-04-20 02:15:34,548 [INFO] ParamManager:955 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2020-04-20 02:15:34,575 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:34,575 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:34,576 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:34,576 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:34,576 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:34,576 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:34,576 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:34,576 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:34,577 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:34,577 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:15:34,587 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:17:05,016 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 414024576 Bytes (986710016)
+2020-04-20 02:17:05,969 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 425181928 Bytes (986710016)
+2020-04-20 02:17:06,103 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 436968216 Bytes (986710016)
+2020-04-20 02:17:06,233 [INFO] ProjectBuilder:1666 - IP not ready for code generation: Clock
+2020-04-20 02:17:25,816 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:17:25,817 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:17:25,818 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:17:25,818 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:17:25,818 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:17:25,818 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:17:25,818 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:17:25,818 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:17:25,819 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:17:25,819 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:17:25,829 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:17:33,208 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 389070600 Bytes (986710016)
+2020-04-20 02:17:34,058 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 400045656 Bytes (986710016)
+2020-04-20 02:17:34,189 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 412333848 Bytes (986710016)
+2020-04-20 02:17:34,322 [INFO] ProjectBuilder:1666 - IP not ready for code generation: Clock
+2020-04-20 02:17:35,500 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-04-20 02:17:35,500 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2020-04-20 02:17:35,500 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-04-20 02:17:35,500 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-04-20 02:17:35,500 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: ADC
+2020-04-20 02:17:35,500 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-04-20 02:17:35,501 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\
+2020-04-20 02:17:35,646 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\license.tmp_save
+2020-04-20 02:17:35,693 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\license.tmp
+2020-04-20 02:17:35,717 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\gpio.tmp_save
+2020-04-20 02:17:35,769 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\gpio.tmp
+2020-04-20 02:17:35,803 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-04-20 02:17:35,804 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for ADC
+2020-04-20 02:17:35,805 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 02:17:35,806 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-04-20 02:17:35,808 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2020-04-20 02:17:35,808 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 02:17:35,810 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-04-20 02:17:35,810 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 02:17:35,838 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_it.c_save
+2020-04-20 02:17:35,903 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_it.c
+2020-04-20 02:17:35,922 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_it.h_save
+2020-04-20 02:17:35,969 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_it.h
+2020-04-20 02:17:35,998 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_hal_msp.c_save
+2020-04-20 02:17:36,090 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_hal_msp.c
+2020-04-20 02:17:36,108 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\system.tmp_save
+2020-04-20 02:17:36,151 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\system.tmp
+2020-04-20 02:17:36,178 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-04-20 02:17:36,250 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_hal_conf.h
+2020-04-20 02:17:36,257 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-04-20 02:17:36,258 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-04-20 02:17:36,283 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\main.h_save
+2020-04-20 02:17:36,342 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\main.h
+2020-04-20 02:17:36,370 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\main.c_save
+2020-04-20 02:17:36,465 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\main.c
+2020-04-20 02:17:37,236 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 96mS.
+2020-04-20 02:17:37,238 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-04-20 02:17:37,415 [INFO] ConfigFileManager:1066 - The Die is : DIE410
+2020-04-20 02:17:38,480 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1242mS.
+2020-04-20 02:17:38,480 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-04-20 02:17:38,481 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-04-20 02:40:20,290 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:40:20,292 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:40:20,292 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:40:20,292 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:40:20,292 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:40:20,293 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:40:20,293 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:40:20,293 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:40:20,293 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:40:20,293 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:40:20,304 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:41:13,320 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 02:41:15,265 [INFO] ADCParametersView:101 -                Rank 1 : false
+2020-04-20 02:41:16,801 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 03:07:10,802 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,488x468,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-04-20 03:07:12,499 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 03:07:12,500 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 03:07:12,501 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 03:07:12,501 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 03:07:12,501 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 03:07:12,502 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 03:07:12,502 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 03:07:12,502 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 03:07:12,503 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 03:07:12,503 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 03:07:12,522 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,635 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,639 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,639 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,639 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,639 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,640 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,640 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,640 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,641 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,641 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,686 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,731 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,732 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,732 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,732 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,732 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,733 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,733 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,733 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,733 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,733 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,744 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,745 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,746 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,748 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,749 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,750 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,751 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,752 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,754 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,755 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,757 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,758 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,758 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,821 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,821 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,822 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,822 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,822 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,822 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,822 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,822 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,823 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,823 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,823 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,823 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,823 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,823 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,824 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,824 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,825 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,825 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,825 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,825 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,825 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,825 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,826 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,826 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,826 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,826 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,826 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,826 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,826 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,827 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,827 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:15,839 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:08:22,628 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 260179072 Bytes (1073741824)
+2020-04-20 05:08:24,048 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 271713408 Bytes (1073741824)
+2020-04-20 05:08:33,941 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 332727440 Bytes (1073741824)
+2020-04-20 05:08:34,098 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-04-20 05:08:34,098 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2020-04-20 05:08:34,098 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-04-20 05:08:34,098 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-04-20 05:08:34,098 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: ADC
+2020-04-20 05:08:34,098 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-04-20 05:08:34,099 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\
+2020-04-20 05:08:34,259 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\license.tmp_save
+2020-04-20 05:08:34,317 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\license.tmp
+2020-04-20 05:08:34,354 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\gpio.tmp_save
+2020-04-20 05:08:34,410 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\gpio.tmp
+2020-04-20 05:08:34,444 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-04-20 05:08:34,445 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for ADC
+2020-04-20 05:08:34,445 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 05:08:34,446 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-04-20 05:08:34,447 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2020-04-20 05:08:34,447 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 05:08:34,448 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-04-20 05:08:34,449 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 05:08:34,484 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_it.c_save
+2020-04-20 05:08:34,569 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_it.c
+2020-04-20 05:08:34,595 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_it.h_save
+2020-04-20 05:08:34,653 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_it.h
+2020-04-20 05:08:34,699 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_hal_msp.c_save
+2020-04-20 05:08:34,814 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_hal_msp.c
+2020-04-20 05:08:34,837 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\system.tmp_save
+2020-04-20 05:08:34,890 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\system.tmp
+2020-04-20 05:08:34,927 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-04-20 05:08:35,040 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_hal_conf.h
+2020-04-20 05:08:35,052 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-04-20 05:08:35,053 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-04-20 05:08:35,107 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\main.h_save
+2020-04-20 05:08:35,201 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\main.h
+2020-04-20 05:08:35,253 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\main.c_save
+2020-04-20 05:08:35,399 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\main.c
+2020-04-20 05:08:35,877 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 93mS.
+2020-04-20 05:08:35,879 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-04-20 05:08:36,104 [INFO] ConfigFileManager:1066 - The Die is : DIE410
+2020-04-20 05:08:37,480 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1601mS.
+2020-04-20 05:08:37,481 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-04-20 05:08:37,482 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-04-20 05:14:26,594 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,594 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,594 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,595 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,595 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,595 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,595 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,595 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,595 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,595 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,623 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,663 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,663 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,663 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,663 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,664 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,664 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,664 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,664 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,664 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,664 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,682 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,683 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,684 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,685 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,686 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,686 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,687 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,689 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,691 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,691 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,692 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,692 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,692 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,735 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,735 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,735 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,735 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,736 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,736 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,736 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,736 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,736 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,736 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,736 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,736 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,737 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,737 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,737 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,737 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,737 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,737 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,737 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,738 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,738 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,738 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,738 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,738 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,738 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,738 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,739 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,739 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,739 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,739 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,739 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:26,749 [INFO] ADCParametersView:101 -                Rank 1 : true
+2020-04-20 05:14:38,714 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 474294976 Bytes (1073741824)
+2020-04-20 05:14:39,547 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 486349440 Bytes (1073741824)
+2020-04-20 05:14:40,270 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 523770504 Bytes (1073741824)
+2020-04-20 05:14:40,410 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-04-20 05:14:40,410 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2020-04-20 05:14:40,410 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-04-20 05:14:40,410 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-04-20 05:14:40,411 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: ADC
+2020-04-20 05:14:40,411 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-04-20 05:14:40,411 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.1.202004052303\\db\
+2020-04-20 05:14:40,556 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\license.tmp_save
+2020-04-20 05:14:40,606 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\license.tmp
+2020-04-20 05:14:40,635 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\gpio.tmp_save
+2020-04-20 05:14:40,688 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\gpio.tmp
+2020-04-20 05:14:40,719 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-04-20 05:14:40,720 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for ADC
+2020-04-20 05:14:40,721 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 05:14:40,722 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-04-20 05:14:40,723 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2020-04-20 05:14:40,723 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 05:14:40,724 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-04-20 05:14:40,725 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-04-20 05:14:40,759 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_it.c_save
+2020-04-20 05:14:40,824 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_it.c
+2020-04-20 05:14:40,846 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_it.h_save
+2020-04-20 05:14:40,904 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_it.h
+2020-04-20 05:14:40,946 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_hal_msp.c_save
+2020-04-20 05:14:41,050 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\stm32f1xx_hal_msp.c
+2020-04-20 05:14:41,075 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\system.tmp_save
+2020-04-20 05:14:41,129 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\MXTmpFiles\system.tmp
+2020-04-20 05:14:41,166 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-04-20 05:14:41,250 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\stm32f1xx_hal_conf.h
+2020-04-20 05:14:41,256 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-04-20 05:14:41,257 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-04-20 05:14:41,285 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\main.h_save
+2020-04-20 05:14:41,340 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Inc\main.h
+2020-04-20 05:14:41,370 [INFO] CodeEngine:188 - oldGeneratedFile, E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\main.c_save
+2020-04-20 05:14:41,484 [INFO] CodeEngine:206 - Generated code: E:\Uczelnia\Semestr 4\PTM\L\Project\STM32_SpaceInvaders\NUCLEO-F103RB-UART-JOYSTICK\NUCLEO-F103RB-UART-JOYSTICK\Core\Src\main.c
+2020-04-20 05:14:42,006 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 101mS.
+2020-04-20 05:14:42,009 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-04-20 05:14:42,200 [INFO] ConfigFileManager:1066 - The Die is : DIE410
+2020-04-20 05:14:43,799 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1790mS.
+2020-04-20 05:14:43,800 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2020-04-20 05:14:43,801 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
