@@ -23,9 +23,6 @@ screen = pygame.display.set_mode(screen_size)
 # screen color (in RGB)
 screen_color = (27, 27, 47)  # very darker blue/purple
 
-# Adding background
-background = pygame.image.load("background.png")
-
 # value if the game is running
 RUNNING = True
 
