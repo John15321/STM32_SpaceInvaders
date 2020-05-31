@@ -3,6 +3,7 @@
 import random
 import math
 import pygame
+import serial
 
 # Initializing PyGame
 pygame.init()
@@ -97,12 +98,28 @@ def isCollision(obj1_x_position, obj1_y_position, obj2_x_position, obj2_y_positi
 #     sc = font.render("Score: "+str(score), True, (255, 255, 255))
 #     screen.blit(sc, (x, y))
 
+# Initializing the serial port to connect with the STM
+ser = serial.Serial(port="COM3", baudrate=115200)
+print("connected to: " + ser.portstr)
 
 # Main Game Loop
 while RUNNING:
     # setting the background color for the whole screen
     screen.fill(screen_color)
-
+    counter = 0
+    # Here we are reading the current joystick position
+    if counter%10==0:
+        cc = str(ser.readline())
+        counter = 0
+    counter += 1
+    # for debugging purpuses we are printing the position and then saving it as a variable
+    joystick = cc
+    # print(cc)
+    for each in joystick:
+        if not each.isdigit():
+            joystick = joystick.replace(each, "")
+    joystick = int(joystick)
+    # print(joystick)
     # for loop for catching evvents for PyGame
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -111,26 +128,37 @@ while RUNNING:
         # if a key is pressed -> move
         if event.type == pygame.KEYDOWN:
             # if left arrow -> go left
-            if event.key == pygame.K_LEFT:
+            if event.key == pygame.K_LEFT or joystick < 850:
                 print("Pressed left")
                 player_speed = -1
             # if right arrow -> go right
-            if event.key == pygame.K_RIGHT:
+            if event.key == pygame.K_RIGHT or joystick > 1250:
                 print("Pressed right")
                 player_speed = 1
-            # if space -> shoot bullet
-            if event.key == pygame.K_SPACE and bullet_ready:
-                print("Pressed space")
-                bullet_ready = False
-                bullet_x_position = player_x_position
-                bullet_y_position = player_y_position
+            
 
         # if a key that was pressed is lifted
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
                 print("Keystroke has been released")
                 player_speed = 0
-
+    # if space -> shoot bullet
+    if bullet_ready:
+        # print("Pressed space")
+        bullet_ready = False
+        bullet_x_position = player_x_position
+        bullet_y_position = player_y_position
+    print(joystick)
+    # if left arrow -> go left
+    if joystick < 850:
+        # print("Pressed left")
+        player_speed = -1
+    # if right arrow -> go right
+    elif joystick > 1250:
+        # print("Pressed right")
+        player_speed = 1
+    elif joystick > 850 or joystick < 1250:
+        player_speed = 0
     # Updating the bullet
     if bullet_ready == False:
         bullet_y_position -= bullet_y_speed
